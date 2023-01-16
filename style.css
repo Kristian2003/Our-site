@@ -1,0 +1,104 @@
+* {box-sizing: border-box}
+
+button:hover {
+  opacity:1;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #fffffa;
+}
+
+.form{
+    width: 80vw;
+}
+
+.form1 {
+  width: 40vw;
+}
+
+.username{
+  background: #ffffff;
+  width: 50%;
+  padding: 12px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid 1px;
+}
+
+.down {
+  background: #ffffff;
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid 1px;
+}
+
+.signUpButton{
+  background-color: #9da324;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  min-width: 300px;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.signInButton{
+  background-color: #24a37b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  min-width: 300px;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.container {
+  padding: 16px;
+  width: 80vw;
+}
+
+.goal {
+  padding: 16px;
+  border: solid 1px;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.break{
+  background-color: #52a6d7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  min-width: 300px;
+  opacity: 0.9;
+}
+
+.create{
+  background-color: #a32448;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  min-width: 300px;
+  opacity: 0.9;
+}
+
+ul{
+  list-style-type: none;
+}
